@@ -9,7 +9,7 @@ const booking=require('../models/voucher-trans');
 var trans= new confirmation()
 
 router.get('/plane', (req, res) => {
-    res.render('pages/plane')
+    res.render('pages/Plane')
 })
 
 router.get('/train', (req, res) => {
