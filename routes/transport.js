@@ -47,7 +47,7 @@ trans.gettanggal(datestring(date_));
     const classplane=req.body.classplane;
     var search = {to: To, from: From, bagasi: "20KG"};
     var data = await transport.find(search);
-    res.render('pages/plane_hasil', {transport: data});
+    res.render('pages/Plane_hasil', {transport: data});
    
 }
 
